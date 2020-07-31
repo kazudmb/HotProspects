@@ -13,6 +13,9 @@
 		AE24EA5624D0F09900FDDE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE24EA5524D0F09900FDDE97 /* Assets.xcassets */; };
 		AE24EA5924D0F09900FDDE97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE24EA5824D0F09900FDDE97 /* Preview Assets.xcassets */; };
 		AE24EA5C24D0F09900FDDE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE24EA5A24D0F09900FDDE97 /* LaunchScreen.storyboard */; };
+		AE2B70AA24D4D1F0004065AD /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B70A924D4D1F0004065AD /* ProspectsView.swift */; };
+		AE2B70AC24D4D1FA004065AD /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B70AB24D4D1FA004065AD /* MeView.swift */; };
+		AE2B70AE24D4D4E4004065AD /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B70AD24D4D4E4004065AD /* Prospect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AE24EA5824D0F09900FDDE97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE24EA5B24D0F09900FDDE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE24EA5D24D0F09900FDDE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2B70A924D4D1F0004065AD /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		AE2B70AB24D4D1FA004065AD /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		AE2B70AD24D4D4E4004065AD /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				AE24EA4F24D0F09700FDDE97 /* AppDelegate.swift */,
 				AE24EA5124D0F09700FDDE97 /* SceneDelegate.swift */,
 				AE24EA5324D0F09700FDDE97 /* ContentView.swift */,
+				AE2B70A924D4D1F0004065AD /* ProspectsView.swift */,
+				AE2B70AB24D4D1FA004065AD /* MeView.swift */,
+				AE2B70AD24D4D4E4004065AD /* Prospect.swift */,
 				AE24EA5524D0F09900FDDE97 /* Assets.xcassets */,
 				AE24EA5A24D0F09900FDDE97 /* LaunchScreen.storyboard */,
 				AE24EA5D24D0F09900FDDE97 /* Info.plist */,
@@ -91,6 +100,8 @@
 			dependencies = (
 			);
 			name = HotProspects;
+			packageProductDependencies = (
+			);
 			productName = HotProspects;
 			productReference = AE24EA4C24D0F09700FDDE97 /* HotProspects.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +130,8 @@
 				Base,
 			);
 			mainGroup = AE24EA4324D0F09700FDDE97;
+			packageReferences = (
+			);
 			productRefGroup = AE24EA4D24D0F09700FDDE97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2B70AA24D4D1F0004065AD /* ProspectsView.swift in Sources */,
+				AE2B70AE24D4D4E4004065AD /* Prospect.swift in Sources */,
 				AE24EA5024D0F09700FDDE97 /* AppDelegate.swift in Sources */,
 				AE24EA5224D0F09700FDDE97 /* SceneDelegate.swift in Sources */,
 				AE24EA5424D0F09700FDDE97 /* ContentView.swift in Sources */,
+				AE2B70AC24D4D1FA004065AD /* MeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
